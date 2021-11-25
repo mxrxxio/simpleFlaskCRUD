@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+<title>Flask App</title>
+{% endblock %}
+
+
+{% block body %}
+<div class="content">
+    <h1>Editar producto</h1>
+    
+    <br>
+    <form action="/update/{{product.id_product}}" method="POST">
+        <input type="text" placeholder="ID (Único)" name="id_product" id="id_product" value="{{product.id_product}}"> <br>
+        <input type="text" placeholder="Precio" name="price" id="price" value="{{product.price}}"> <br>
+        <input type="text" placeholder="Descripción" name="description" id="description" value="{{product.description}}"> <br>
+        <input type="submit" value="Guardar">
+    </form>
+</div>
+{% endblock %}

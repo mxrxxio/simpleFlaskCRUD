@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+td {
+	text-align: center;
+	padding: 5px;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
+  	width: 75%;
+	margin: auto;
+	display: flex;
+  	justify-content: center;
+}
