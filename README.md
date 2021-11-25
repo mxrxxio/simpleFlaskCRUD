@@ -1,1 +1,1 @@
-imple CRUD with flask and sqlite as database
+Simple CRUD with flask and sqlite as database (empty)
